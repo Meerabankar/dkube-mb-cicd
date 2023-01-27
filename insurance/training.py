@@ -115,6 +115,6 @@ with mlflow.start_run(run_name="insurance") as run:
     mlflow.log_params({"dataset": "https://dkube-examples-data.s3.us-west-2.amazonaws.com/monitoring-insurance/training-data/insurance.csv",
                        "code": "https://github.com/oneconvergence/dkube-examples/tree/training/insurance",
                        "model": "Deep Neural Network"})
-    # Demo Comment2
+    # Demo  new
     
 print("Training Complete !")
